@@ -10,3 +10,13 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+
+.image-container {
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
