@@ -1,0 +1,8 @@
+<div class="container mt-3">
+  <h1> Your Available Movies </h1>
+  <ul>
+    <% @movies.each do |movie| %>
+      <li> <%= movie.title %></li>
+    <% end %>
+  </ul>
+</div>

@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     resources :bookmarks, only: [:new, :create]
   end
 
-  resources :movies, only: [:show]
+  resources :movies, only: [:index]
   # Change the resource route for bookmarks to specify :destroy action as DELETE
   resources :bookmarks, only: [:destroy]
 end
